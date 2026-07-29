@@ -4,6 +4,8 @@ A vendor-neutral tool that indexes **any** Microsoft SharePoint site into a
 retrieval-augmented-generation (RAG) knowledge base — then lets you query it in
 natural language.
 
+**🌐 [Website](https://menonpg.github.io/sharepoint-rag-oss/)** · [Setup guide](SETUP.md) · [Roadmap](ROADMAP.md)
+
 It connects to SharePoint headlessly (app-only Microsoft Graph auth), performs
 incremental **delta sync** so only changed files are reprocessed, extracts and
 chunks document content, embeds it with a pluggable embedding backend, stores
